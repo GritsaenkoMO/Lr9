@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+  <script src="1.js"></script>
+</head>
+<body>
+<H1>Работа с готовым списком</H1>
+<FORM NAME="Test2">
+  <SELECT NAME="Item" SIZE=5>
+      <OPTION VALUE="tea" SELECTED>Чай
+      <OPTION VALUE ="coffee">Кофе
+      <OPTION VALUE ="milk">Молоко
+      <OPTION VALUE ="cocoa">Какао
+      <OPTION VALUE ="juice">Сок
+  </SELECT>
+  <INPUT TYPE="button" VALUE="Пусть кофе"
+         onClick="Test2.Item.options[1].selected=true;">
+  <INPUT TYPE="button" VALUE="Посмотрим"
+         onClick="btnClick2();">
+</FORM>
+</body>
+</html>

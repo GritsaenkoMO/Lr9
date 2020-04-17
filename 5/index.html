@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+  <script src="1.js"></script>
+</head>
+<body>
+<H1>Работа с готовым списком</H1>
+<FORM NAME="Sel">
+  <!-- Пустой список ссылок-->
+  <SELECT NAME="ListOfLinks"> </SELECT>
+  <!-- Кнопка активизации выбранной ссылки-->
+  <INPUT
+    TYPE="button"
+    VALUE="Переход"
+    onClick="window.location.href=document.links[Sel.ListOfLinks.selectedIndex];"
+  />
+</FORM>
+
+<A HREF="https://rozetka.com.ua/"></A>
+<A HREF="https://allo.ua/"></A>
+<A HREF="https://www.olx.ua/"></A>
+<A HREF="https://www.zieit.edu.ua/"></A>
+
+
+</body>
+</html>
